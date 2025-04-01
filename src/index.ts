@@ -23,3 +23,5 @@ app.post("/", async (req, res) => {
         message: "Post Endpoint",
     });
 });
+
+app.listen(3000);
